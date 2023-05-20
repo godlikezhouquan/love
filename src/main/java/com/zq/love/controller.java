@@ -11,10 +11,10 @@ import java.util.Map;
 public class controller {
     @GetMapping ("/login")
     public Object myLoveAsk(){
-        String myask=null;
-        Map map=new HashMap<>();
+        String myAsk;
+        Map<Object, Object> map=new HashMap<>();
         map.put("周全:","爱张亚男");
-        myask= "周全:"+map.get("周全:").toString();
-        return myask;
+        myAsk= "周全:"+map.get("周全:");
+        return myAsk;
     }
 }
